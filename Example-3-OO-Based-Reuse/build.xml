@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+
+<project name="myproject" basedir="." default="all">
+
+  <property name="dist.dir" value="jars" />
+  <property name="build.compiler" value="modern"/>
+  <property name="myJAR" value="client.jar"/>
+
+  <path id="base.classpath">
+      <pathelement location="classes"/>
+  </path>
+
+  <property name="classpath" refid="base.classpath"/>
+
+  <target name="all" depends="compile"/>
+
+  <!-- Delete all the targets -->
+  <target name="clean">
+    <delete>
+      <fileset dir=".">
+        <include name="classes/**/*.class" />
+        <include name="*.jar" />
+      </fileset>
+    </delete>
+ </target>
+
+  <!-- compile everything -->
+  <target name="compile">
+    <echo message="The classpath for compilation is ${classpath}" />
+    <mkdir dir="classes" />
+    <javac includeantruntime="false" srcdir="src"
+      deprecation="on"
+      debug="on"
+      destdir="classes"
+      includes="**/*.java"
+      target="1.7"
+      classpath="${compile.classpath}"
+    />
+  </target>
+
+  <target name="jar" depends="compile">
+     <jar jarfile="${myJAR}">
+          <fileset dir="classes" includes="**/*.class" />
+     </jar>
+  </target>
+
+  <target name="run" depends="compile">
+     <java classname="InheritanceTester">
+          <classpath>
+              <pathelement path="./classes"/>
+          </classpath>
+     </java>
+  </target>
+
+</project>

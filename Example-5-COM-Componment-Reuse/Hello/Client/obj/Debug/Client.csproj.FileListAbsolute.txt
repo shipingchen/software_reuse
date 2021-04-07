@@ -1,0 +1,9 @@
+C:\Test\COM\Hello\Client\bin\Debug\Client.exe
+C:\Test\COM\Hello\Client\bin\Debug\Client.pdb
+C:\Test\COM\Hello\Client\bin\Debug\HelloCS.dll
+C:\Test\COM\Hello\Client\bin\Debug\HelloCS.pdb
+C:\Test\COM\Hello\Client\obj\Debug\Client.csprojAssemblyReference.cache
+C:\Test\COM\Hello\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Test\COM\Hello\Client\obj\Debug\Client.csproj.CopyComplete
+C:\Test\COM\Hello\Client\obj\Debug\Client.exe
+C:\Test\COM\Hello\Client\obj\Debug\Client.pdb

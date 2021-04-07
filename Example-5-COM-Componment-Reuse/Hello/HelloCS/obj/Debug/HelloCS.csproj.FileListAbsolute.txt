@@ -1,0 +1,5 @@
+C:\Test\COM\Hello\HelloCS\bin\Debug\HelloCS.dll
+C:\Test\COM\Hello\HelloCS\bin\Debug\HelloCS.pdb
+C:\Test\COM\Hello\HelloCS\obj\Debug\HelloCS.csproj.CoreCompileInputs.cache
+C:\Test\COM\Hello\HelloCS\obj\Debug\HelloCS.dll
+C:\Test\COM\Hello\HelloCS\obj\Debug\HelloCS.pdb

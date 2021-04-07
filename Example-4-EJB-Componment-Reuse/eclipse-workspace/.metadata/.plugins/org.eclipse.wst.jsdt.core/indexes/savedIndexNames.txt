@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Test\MyBook\Example-4-EJB-Componment-Reuse\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3719217276.index
+3864841534.index
+580663625.index
+1479106044.index
+17151287.index
+2190864979.index

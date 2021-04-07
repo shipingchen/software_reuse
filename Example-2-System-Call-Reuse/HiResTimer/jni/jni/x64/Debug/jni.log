@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  dllmain.cpp
+     Creating library C:\Test\MyBook\Example-2-System-Call-Reuse\HiResTimer\jni\x64\Debug\jni.lib and object C:\Test\MyBook\Example-2-System-Call-Reuse\HiResTimer\jni\x64\Debug\jni.exp
+  jni.vcxproj -> C:\Test\MyBook\Example-2-System-Call-Reuse\HiResTimer\jni\x64\Debug\jni.dll
